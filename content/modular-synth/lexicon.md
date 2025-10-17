@@ -1,6 +1,13 @@
-# Modular Synth Terminology Reference
+---
+title: "Modular Synth Lexicon"
+date: "2024-01-15"
+description: "A comprehensive reference guide to modular synthesizer terminology and labels"
+categories: ["reference"]
+tags: ["terminology", "glossary", "modular-synth"]
+---
+<br />
 
-## 🎚️ Control and Modulation Terms
+### 🎚️ Control and Modulation Terms
 
 | Label | Meaning | Description |
 |--------|----------|-------------|
@@ -18,30 +25,32 @@
 | **VCF** | Voltage Controlled Filter | Controls filter cutoff via CV. |
 | **VCO** | Voltage Controlled Oscillator | Oscillator whose pitch is controlled by voltage. |
 | **VC** | Voltage Controlled | Prefix meaning voltage-controllable (VC Delay, VC Mixer, etc.). |
+| **MOD** | Modulation | A control signal (usually CV) affecting a parameter (e.g. filter cutoff, pitch, PWM). |
+| **MOD POLARITY** | Modulation Polarity | Determines whether modulation adds to (positive), subtracts from (negative), or affects both directions (bipolar) around the base value. |
 
----
+<br />
 
-## 🎛️ Signal & Audio Path Labels
+### 🎛️ Signal & Audio Path Labels
 
 | Label | Meaning | Description |
 |--------|----------|-------------|
 | **IN / OUT** | Input / Output | Where audio or CV enters/leaves a module. |
-| **AUDIO** | Audio signal path | Indicates this connection carries audio. |
+| **AUDIO** | Audio Signal Path | Indicates this connection carries audio. |
 | **CV IN** | Control Voltage Input | Modulation input controlling a parameter. |
-| **GATE** | Binary on/off signal | Triggers or sustains an envelope or note. |
-| **TRIG / TRIGGER** | Trigger pulse | Very short signal to start an event. |
-| **CLOCK / CLK** | Clock signal | Periodic pulse used for synchronization. |
-| **RESET** | Reset input | Restarts an LFO, sequence, or envelope. |
+| **GATE** | Binary On/Off Signal | Triggers or sustains an envelope or note. |
+| **TRIG / TRIGGER** | Trigger Pulse | Very short signal to start an event. |
+| **CLOCK / CLK** | Clock Signal | Periodic pulse used for synchronization. |
+| **RESET** | Reset Input | Restarts an LFO, sequence, or envelope. |
 | **SYNC** | Synchronize | Aligns phase between oscillators or modulators. |
 | **ATT / ATTEN** | Attenuator | Reduces CV or audio level. |
-| **OFFSET** | Adds constant DC voltage | Shifts the baseline voltage. |
-| **MIX / MIXER** | Combines signals | Blends multiple sources. |
+| **OFFSET** | Adds Constant DC Voltage | Shifts the baseline voltage. |
+| **MIX / MIXER** | Combines Signals | Blends multiple sources. |
 | **INV** | Invert | Flips the signal polarity. |
-| **SUM** | Summing output | Combines multiple voltages. |
+| **SUM** | Summing Output | Combines multiple voltages. |
 
----
+<br />
 
-## 🔉 Oscillator & Waveform Labels
+### 🔉 Oscillator & Waveform Labels
 
 | Label | Meaning | Description |
 |--------|----------|-------------|
@@ -55,9 +64,9 @@
 | **PW** | Pulse Width | Controls duty cycle of pulse wave. |
 | **PWM IN** | Pulse Width Modulation Input | CV input to modulate pulse width. |
 
----
+<br />
 
-## 🧠 Sequencing & Logic Terms
+### 🧠 Sequencing & Logic Terms
 
 | Label | Meaning | Description |
 |--------|----------|-------------|
@@ -69,9 +78,9 @@
 | **LOGIC** | Logic Functions | Combines triggers (AND, OR, XOR, etc.). |
 | **GATE OUT** | Gate Output | Sends gate signals per step or event. |
 
----
+<br />
 
-## 🎚️ Filter & Effect Terms
+### 🎚️ Filter & Effect Terms
 
 | Label | Meaning | Description |
 |--------|----------|-------------|
@@ -85,9 +94,9 @@
 | **FB / FEEDBACK** | Feedback | Amount of output fed back into input. |
 | **DELAY / REVERB** | Delay / Reverb | Time-based effects. |
 
----
+<br />
 
-## ⚙️ Utility and Misc Terms
+### ⚙️ Utility and Misc Terms
 
 | Label | Meaning | Description |
 |--------|----------|-------------|
@@ -102,9 +111,9 @@
 | **LIN / EXP** | Linear / Exponential | Response curve type (VCAs, envelopes, etc.). |
 | **EXP FM / LIN FM** | FM Type | Specifies exponential or linear frequency modulation input. |
 
----
+<br />
 
-## 💡 Power and Connectivity
+### 💡 Power and Connectivity
 
 | Label | Meaning | Description |
 |--------|----------|-------------|

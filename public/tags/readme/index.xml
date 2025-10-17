@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>Readme on Florian Perucki website</title>
+    <link>http://localhost:1313/tags/readme/</link>
+    <description>Recent content in Readme on Florian Perucki website</description>
+    
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Sep 2022 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/readme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Read me</title>
+      <link>http://localhost:1313/blog/en/readme/</link>
+      <category>readme</category>
+      <category>Demo</category>
+      <category>Markdown-Show</category><pubDate>Thu, 22 Sep 2022 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/readme/</guid>
+      <description>&lt;h1 id=&#34;kaslaanka&#34;&gt;Kaslaanka&lt;/h1&gt;
+&lt;p&gt;A minimalist theme for Hugo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Live&lt;/strong&gt;&lt;/strong&gt; Demo at: &lt;a href=&#34;https://iossefy.github.io/kaslaanka/&#34;&gt;iossefy.github.io/kaslaanka&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;this theme is a fork of &lt;a href=&#34;https://github.com/nanxstats/hugo-tanka&#34;&gt;Hugo-tanka&lt;/a&gt; theme.&lt;/p&gt;
+&lt;p&gt;this theme is a &amp;ldquo;do it yourself&amp;rdquo; theme, you probably want to change the css to make it your taste,
+use &lt;code&gt;custom.css&lt;/code&gt; to do it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/Iossefy/kaslaanka/blob/master/images/tn.png?raw=true&#34; alt=&#34;tn.png&#34;&gt;
+&lt;img src=&#34;https://github.com/Iossefy/kaslaanka/blob/master/images/screenshot.png?raw=true&#34; alt=&#34;screenshot.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;minimalist theme&lt;/li&gt;
+&lt;li&gt;easily customizable&lt;/li&gt;
+&lt;li&gt;easy to setup&lt;/li&gt;
+&lt;li&gt;does not need any javascript (javascript is optional)&lt;/li&gt;
+&lt;li&gt;works as a blog or/and a personal website&lt;/li&gt;
+&lt;li&gt;gives you a space to be creative&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;new-features&#34;&gt;new features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;remove the bloat (utterances comments, progressivly, highlight.js)&lt;/li&gt;
+&lt;li&gt;scriptless by default.&lt;/li&gt;
+&lt;li&gt;removed bootstrap.&lt;/li&gt;
+&lt;li&gt;changed how the index, single pages and blog posts look.&lt;/li&gt;
+&lt;li&gt;blog list on the home page is limited, if the users want to see more
+they go to /blog/&lt;/li&gt;
+&lt;li&gt;listing projects on the home page.&lt;/li&gt;
+&lt;li&gt;brief about me on the home page.&lt;/li&gt;
+&lt;li&gt;support unlisted articles.&lt;/li&gt;
+&lt;li&gt;better favicons.&lt;/li&gt;
+&lt;li&gt;better tags&lt;/li&gt;
+&lt;li&gt;add categories&lt;/li&gt;
+&lt;li&gt;add multiple languages support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HUGE&lt;/strong&gt; first letter paragraph (if you want)&lt;/li&gt;
+&lt;li&gt;Brief description under blog post title&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Install hugo using the
+&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;setup guide&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

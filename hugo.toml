@@ -1,0 +1,41 @@
+baseURL = 'http://localhost:1313/' # 'https://fpki.me'
+languageCode = 'en-us'
+title = 'Florian Perucki website'
+theme = 'kaslaanka'
+
+[menu]
+
+  [[menu.primary]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.primary]]
+    name = "Modular synth"
+    url = "/modular-synth/"
+    weight = 2
+
+  [[menu.primary]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+  [[menu.primary]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[params]
+  sitename = "Florian Perucki"
+  copyrights = "Florian Perucki"
+  brief_about = "Welcome to my personal website"
+  
+  myprojects = [
+    { name = "Modular Synth Exploration", description = "Discovering the world of modular synthesis", url = "/modular-synth/" },
+    { name = "Tech Blog", description = "Sharing knowledge and experiences", url = "/blog/" }
+  ]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>Demo on Florian Perucki website</title>
+    <link>http://localhost:1313/tags/demo/</link>
+    <description>Recent content in Demo on Florian Perucki website</description>
+    
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Sep 2022 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A really long article</title>
+      <link>http://localhost:1313/blog/en/lorem-ipsum/</link>
+      <category>news</category>
+      <category>Demo</category><pubDate>Sun, 25 Sep 2022 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/lorem-ipsum/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;first-letter&#34;&gt;W&lt;/span&gt;hat are you reading 🤣. lorem ipsum
+dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Massa tincidunt nunc
+pulvinar sapien et. Id interdum velit laoreet id donec
+ultrices. Cursus euismod quis viverra nibh cras pulvinar mattis
+nunc. Accumsan in nisl nisi scelerisque eu. Porttitor rhoncus dolor
+purus non. Viverra mauris in aliquam sem fringilla ut. Auctor augue
+mauris augue neque gravida in fermentum. Odio facilisis mauris sit
+amet massa vitae tortor condimentum lacinia. Aliquet enim tortor at
+auctor urna nunc id cursus. Est velit egestas dui id. Lectus magna
+fringilla urna porttitor rhoncus dolor purus non. Velit aliquet
+sagittis id consectetur purus ut faucibus pulvinar.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read me</title>
+      <link>http://localhost:1313/blog/en/readme/</link>
+      <category>readme</category>
+      <category>Demo</category>
+      <category>Markdown-Show</category><pubDate>Thu, 22 Sep 2022 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/readme/</guid>
+      <description>&lt;h1 id=&#34;kaslaanka&#34;&gt;Kaslaanka&lt;/h1&gt;
+&lt;p&gt;A minimalist theme for Hugo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Live&lt;/strong&gt;&lt;/strong&gt; Demo at: &lt;a href=&#34;https://iossefy.github.io/kaslaanka/&#34;&gt;iossefy.github.io/kaslaanka&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;this theme is a fork of &lt;a href=&#34;https://github.com/nanxstats/hugo-tanka&#34;&gt;Hugo-tanka&lt;/a&gt; theme.&lt;/p&gt;
+&lt;p&gt;this theme is a &amp;ldquo;do it yourself&amp;rdquo; theme, you probably want to change the css to make it your taste,
+use &lt;code&gt;custom.css&lt;/code&gt; to do it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/Iossefy/kaslaanka/blob/master/images/tn.png?raw=true&#34; alt=&#34;tn.png&#34;&gt;
+&lt;img src=&#34;https://github.com/Iossefy/kaslaanka/blob/master/images/screenshot.png?raw=true&#34; alt=&#34;screenshot.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;minimalist theme&lt;/li&gt;
+&lt;li&gt;easily customizable&lt;/li&gt;
+&lt;li&gt;easy to setup&lt;/li&gt;
+&lt;li&gt;does not need any javascript (javascript is optional)&lt;/li&gt;
+&lt;li&gt;works as a blog or/and a personal website&lt;/li&gt;
+&lt;li&gt;gives you a space to be creative&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;new-features&#34;&gt;new features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;remove the bloat (utterances comments, progressivly, highlight.js)&lt;/li&gt;
+&lt;li&gt;scriptless by default.&lt;/li&gt;
+&lt;li&gt;removed bootstrap.&lt;/li&gt;
+&lt;li&gt;changed how the index, single pages and blog posts look.&lt;/li&gt;
+&lt;li&gt;blog list on the home page is limited, if the users want to see more
+they go to /blog/&lt;/li&gt;
+&lt;li&gt;listing projects on the home page.&lt;/li&gt;
+&lt;li&gt;brief about me on the home page.&lt;/li&gt;
+&lt;li&gt;support unlisted articles.&lt;/li&gt;
+&lt;li&gt;better favicons.&lt;/li&gt;
+&lt;li&gt;better tags&lt;/li&gt;
+&lt;li&gt;add categories&lt;/li&gt;
+&lt;li&gt;add multiple languages support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HUGE&lt;/strong&gt; first letter paragraph (if you want)&lt;/li&gt;
+&lt;li&gt;Brief description under blog post title&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Install hugo using the
+&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;setup guide&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kaslaanka Theme Demo</title>
+      <link>http://localhost:1313/blog/en/kaslaanka-theme-demo/</link>
+      <category>HelloWorld</category>
+      <category>Demo</category>
+      <category>Markdown-Show</category><pubDate>Tue, 21 Dec 2021 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/kaslaanka-theme-demo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/M1cR0xf7/Kaslaanka&#34;&gt;Kaslaanka&lt;/a&gt; is a &lt;del&gt;Bootstrap&lt;/del&gt; based minimalist theme for Hugo&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1639077567163-f5bcf1c94d06&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Photo by &lt;a href=&#34;https://unsplash.com/@eberhardgross?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&#34;&gt;eberhard 🖐 grossgasteiger&lt;/a&gt;
+on &lt;a href=&#34;https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&#34;&gt;Unsplash&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;typography&#34;&gt;Typography&lt;/h2&gt;
+&lt;p&gt;Follows the &lt;del&gt;Bootstrap&lt;/del&gt; based typography.&lt;/p&gt;
+&lt;h1 id=&#34;h1-heading&#34;&gt;h1 Heading&lt;/h1&gt;
+&lt;h2 id=&#34;h2-heading&#34;&gt;h2 Heading&lt;/h2&gt;
+&lt;h3 id=&#34;h3-heading&#34;&gt;h3 Heading&lt;/h3&gt;
+&lt;h4 id=&#34;h4-heading&#34;&gt;h4 Heading&lt;/h4&gt;
+&lt;h5 id=&#34;h5-heading&#34;&gt;h5 Heading&lt;/h5&gt;
+&lt;h6 id=&#34;h6-heading&#34;&gt;h6 Heading&lt;/h6&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;Deleted text&lt;/del&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Block quotes are
+written like so.&lt;/p&gt;
+&lt;p&gt;They can span multiple paragraphs,
+if you like.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Some text, and some &lt;code&gt;code&lt;/code&gt; and then a nice plain &lt;a href=&#34;http://localhost:1313/&#34; title=&#34;title text!&#34;&gt;link with title&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>привет</title>
+      <link>http://localhost:1313/blog/ru/hello.ru/</link>
+      <category>Russian</category>
+      <category>Demo</category>
+      <category>русский</category><pubDate>Tue, 21 Dec 2021 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ru/hello.ru/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;first-letter&#34;&gt;Л&lt;/span&gt;орем ипсум долор сит амет, ин промпта нострум улламцорпер меа, лаборе
+цопиосае ех нец, иус те ипсум иусто. Ад меи инсоленс диспутатиони,
+алтерум алиенум ан еам, фалли ириуре инермис еа хас. Еам одио бландит
+сусципит цу. Еу дебет бонорум яуо, сонет солута орнатус ат еос. Пер
+ноструд оффендит цомпрехенсам еи.&lt;/p&gt;
+&lt;p&gt;Омнис лаборес ин вим, еу алиа пауло цонцлудатуряуе цум, иисяуе
+пертинациа еа ест. Ин меа нусяуам репрехендунт. Феугаит вивендо еи
+нец, ест ан идяуе граеци номинави. Еи саепе волуптатибус медиоцритатем
+про, алтерум рецтеяуе урбанитас ест еу.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
