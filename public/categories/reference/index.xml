@@ -7,18 +7,43 @@
     <description>Recent content in Reference on Florian Perucki website</description>
     
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/reference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/reference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modular Synth Lexicon</title>
       <link>http://localhost:1313/modular-synth/lexicon/</link>
       <category>terminology</category>
       <category>glossary</category>
-      <category>modular-synth</category><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <category>modular-synth</category><pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/modular-synth/lexicon/</guid>
-      <description>&lt;h1 id=&#34;modular-synth-lexicon&#34;&gt;Modular Synth Lexicon&lt;/h1&gt;
-&lt;p&gt;Welcome to the Modular Synth Lexicon! This is your comprehensive reference guide to understanding the terminology, labels, and abbreviations commonly found on modular synthesizer modules and in the Eurorack community.&lt;/p&gt;
-&lt;h2 id=&#34;-control-and-modulation-terms&#34;&gt;🎚️ Control and Modulation Terms&lt;/h2&gt;
+      <description>&lt;div style=&#34;margin-bottom: 30px; position: relative;&#34;&gt;
+  &lt;input type=&#34;text&#34; id=&#34;lexiconSearch&#34; placeholder=&#34;🔍 Search terminology...&#34; style=&#34;width: 100%; padding: 12px 15px; font-size: 16px; border: 2px solid #e0e0e0; border-radius: 8px; box-sizing: border-box; background-color: #fafafa; transition: all 0.3s ease;&#34; /&gt;
+&lt;/div&gt;
+&lt;style&gt;
+#lexiconSearch:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+#lexiconSearch::placeholder {
+  color: #999;
+}
+
+table tr.hidden-row {
+  display: none !important;
+}
+
+.no-results {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-style: italic;
+}
+&lt;/style&gt;
+&lt;br /&gt;
+&lt;h3 id=&#34;-control-and-modulation-terms&#34;&gt;🎚️ Control and Modulation Terms&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -56,17 +81,17 @@
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;PWM&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;Pulse Width Modulation&lt;/td&gt;
-          &lt;td&gt;Modulates a square wave&amp;rsquo;s width for richer timbres.&lt;/td&gt;
+          &lt;td&gt;Modulates a square wave’s width for richer timbres.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;FM&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;Frequency Modulation&lt;/td&gt;
-          &lt;td&gt;One signal modulates another&amp;rsquo;s frequency.&lt;/td&gt;
+          &lt;td&gt;One signal modulates another’s frequency.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;AM&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;Amplitude Modulation&lt;/td&gt;
-          &lt;td&gt;One signal modulates another&amp;rsquo;s amplitude.&lt;/td&gt;
+          &lt;td&gt;One signal modulates another’s amplitude.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;RM&lt;/strong&gt;&lt;/td&gt;
@@ -110,7 +135,8 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;-signal--audio-path-labels&#34;&gt;🎛️ Signal &amp;amp; Audio Path Labels&lt;/h2&gt;
+&lt;br /&gt;
+&lt;h3 id=&#34;-signal--audio-path-labels&#34;&gt;🎛️ Signal &amp;amp; Audio Path Labels&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -187,7 +213,8 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;-oscillator--waveform-labels&#34;&gt;🔉 Oscillator &amp;amp; Waveform Labels&lt;/h2&gt;
+&lt;br /&gt;
+&lt;h3 id=&#34;-oscillator--waveform-labels&#34;&gt;🔉 Oscillator &amp;amp; Waveform Labels&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -244,7 +271,8 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;-sequencing--logic-terms&#34;&gt;🧠 Sequencing &amp;amp; Logic Terms&lt;/h2&gt;
+&lt;br /&gt;
+&lt;h3 id=&#34;-sequencing--logic-terms&#34;&gt;🧠 Sequencing &amp;amp; Logic Terms&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -291,7 +319,8 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;-filter--effect-terms&#34;&gt;🎚️ Filter &amp;amp; Effect Terms&lt;/h2&gt;
+&lt;br /&gt;
+&lt;h3 id=&#34;-filter--effect-terms&#34;&gt;🎚️ Filter &amp;amp; Effect Terms&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -348,7 +377,8 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;-utility-and-misc-terms&#34;&gt;⚙️ Utility and Misc Terms&lt;/h2&gt;
+&lt;br /&gt;
+&lt;h3 id=&#34;-utility-and-misc-terms&#34;&gt;⚙️ Utility and Misc Terms&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -410,7 +440,8 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;-power-and-connectivity&#34;&gt;💡 Power and Connectivity&lt;/h2&gt;
+&lt;br /&gt;
+&lt;h3 id=&#34;-power-and-connectivity&#34;&gt;💡 Power and Connectivity&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -442,8 +473,124 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;This lexicon is a living document that will be updated as new terminology emerges in the modular synthesizer community. Feel free to bookmark this page for quick reference while exploring the world of modular synthesis!&lt;/em&gt;&lt;/p&gt;</description>
+&lt;br /&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    const searchInput = document.getElementById(&#39;lexiconSearch&#39;);
+    const tables = document.querySelectorAll(&#39;table&#39;);
+    let totalRows = 0;
+    let visibleRows = 0;
+    
+    // Count total rows initially
+    tables.forEach(table =&gt; {
+        const rows = table.querySelectorAll(&#39;tbody tr&#39;);
+        totalRows += rows.length;
+    });
+    
+    function filterTables() {
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        visibleRows = 0;
+        
+        if (searchTerm === &#39;&#39;) {
+            // Show all rows and sections
+            tables.forEach(table =&gt; {
+                const rows = table.querySelectorAll(&#39;tbody tr&#39;);
+                rows.forEach(row =&gt; {
+                    row.style.display = &#39;&#39;;
+                    row.classList.remove(&#39;hidden-row&#39;);
+                });
+                
+                // Show the section header
+                let sectionHeader = table.previousElementSibling;
+                while (sectionHeader &amp;&amp; sectionHeader.tagName !== &#39;H3&#39;) {
+                    sectionHeader = sectionHeader.previousElementSibling;
+                }
+                
+                if (sectionHeader &amp;&amp; sectionHeader.tagName === &#39;H3&#39;) {
+                    sectionHeader.style.display = &#39;&#39;;
+                    // Also show any br elements before the header
+                    let brElement = sectionHeader.previousElementSibling;
+                    if (brElement &amp;&amp; brElement.tagName === &#39;BR&#39;) {
+                        brElement.style.display = &#39;&#39;;
+                    }
+                }
+                
+                // Show the table header row
+                const tableHeader = table.querySelector(&#39;thead tr&#39;);
+                if (tableHeader) {
+                    tableHeader.style.display = &#39;&#39;;
+                }
+            });
+            
+            return;
+        }
+        
+        tables.forEach(table =&gt; {
+            const rows = table.querySelectorAll(&#39;tbody tr&#39;);
+            let hasVisibleRows = false;
+            
+            rows.forEach(row =&gt; {
+                const text = row.textContent.toLowerCase();
+                const isVisible = text.includes(searchTerm);
+                
+                if (isVisible) {
+                    row.style.display = &#39;&#39;;
+                    row.classList.remove(&#39;hidden-row&#39;);
+                    hasVisibleRows = true;
+                    visibleRows++;
+                } else {
+                    row.style.display = &#39;none&#39;;
+                    row.classList.add(&#39;hidden-row&#39;);
+                }
+            });
+            
+            // Hide/show the section header if no rows are visible
+            // Look for the H3 header that precedes this table
+            let sectionHeader = table.previousElementSibling;
+            while (sectionHeader &amp;&amp; sectionHeader.tagName !== &#39;H3&#39;) {
+                sectionHeader = sectionHeader.previousElementSibling;
+            }
+            
+            if (sectionHeader &amp;&amp; sectionHeader.tagName === &#39;H3&#39;) {
+                sectionHeader.style.display = hasVisibleRows ? &#39;&#39; : &#39;none&#39;;
+                // Also hide any br elements before the header
+                let brElement = sectionHeader.previousElementSibling;
+                if (brElement &amp;&amp; brElement.tagName === &#39;BR&#39;) {
+                    brElement.style.display = hasVisibleRows ? &#39;&#39; : &#39;none&#39;;
+                }
+            }
+            
+            // Hide/show the table header row when no data rows are visible
+            const tableHeader = table.querySelector(&#39;thead tr&#39;);
+            if (tableHeader) {
+                tableHeader.style.display = hasVisibleRows ? &#39;&#39; : &#39;none&#39;;
+            }
+        });
+        
+        // Hide search results counter
+        searchResults.style.display = &#39;none&#39;;
+    }
+    
+    searchInput.addEventListener(&#39;input&#39;, filterTables);
+    
+    // Clear search on Escape key
+    searchInput.addEventListener(&#39;keydown&#39;, function(e) {
+        if (e.key === &#39;Escape&#39;) {
+            searchInput.value = &#39;&#39;;
+            filterTables();
+            searchInput.blur(); // Remove focus
+        }
+    });
+    
+    // Focus search on Ctrl+F or Cmd+F
+    document.addEventListener(&#39;keydown&#39;, function(e) {
+        if ((e.ctrlKey || e.metaKey) &amp;&amp; e.key === &#39;f&#39;) {
+            e.preventDefault();
+            searchInput.focus();
+        }
+    });
+});
+&lt;/script&gt;</description>
     </item>
     
   </channel>

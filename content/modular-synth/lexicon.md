@@ -1,10 +1,38 @@
 ---
 title: "Modular Synth Lexicon"
-date: "2024-01-15"
-description: "A comprehensive reference guide to modular synthesizer terminology and labels"
+date: "2025-10-19"
 categories: ["reference"]
 tags: ["terminology", "glossary", "modular-synth"]
 ---
+
+<div style="margin-bottom: 30px; position: relative;">
+  <input type="text" id="lexiconSearch" placeholder="🔍 Search terminology..." style="width: 100%; padding: 12px 15px; font-size: 16px; border: 2px solid #e0e0e0; border-radius: 8px; box-sizing: border-box; background-color: #fafafa; transition: all 0.3s ease;" />
+</div>
+
+<style>
+#lexiconSearch:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+#lexiconSearch::placeholder {
+  color: #999;
+}
+
+table tr.hidden-row {
+  display: none !important;
+}
+
+.no-results {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-style: italic;
+}
+</style>
+
 <br />
 
 ### 🎚️ Control and Modulation Terms
@@ -121,3 +149,123 @@ tags: ["terminology", "glossary", "modular-synth"]
 | **GND** | Ground | Common voltage reference. |
 | **BUS** | Bus Connection | Shared power or CV bus line. |
 | **MIDI / USB** | Connectivity Ports | Digital communication or control interfaces. |
+
+<br />
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('lexiconSearch');
+    const tables = document.querySelectorAll('table');
+    let totalRows = 0;
+    let visibleRows = 0;
+    
+    // Count total rows initially
+    tables.forEach(table => {
+        const rows = table.querySelectorAll('tbody tr');
+        totalRows += rows.length;
+    });
+    
+    function filterTables() {
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        visibleRows = 0;
+        
+        if (searchTerm === '') {
+            // Show all rows and sections
+            tables.forEach(table => {
+                const rows = table.querySelectorAll('tbody tr');
+                rows.forEach(row => {
+                    row.style.display = '';
+                    row.classList.remove('hidden-row');
+                });
+                
+                // Show the section header
+                let sectionHeader = table.previousElementSibling;
+                while (sectionHeader && sectionHeader.tagName !== 'H3') {
+                    sectionHeader = sectionHeader.previousElementSibling;
+                }
+                
+                if (sectionHeader && sectionHeader.tagName === 'H3') {
+                    sectionHeader.style.display = '';
+                    // Also show any br elements before the header
+                    let brElement = sectionHeader.previousElementSibling;
+                    if (brElement && brElement.tagName === 'BR') {
+                        brElement.style.display = '';
+                    }
+                }
+                
+                // Show the table header row
+                const tableHeader = table.querySelector('thead tr');
+                if (tableHeader) {
+                    tableHeader.style.display = '';
+                }
+            });
+            
+            return;
+        }
+        
+        tables.forEach(table => {
+            const rows = table.querySelectorAll('tbody tr');
+            let hasVisibleRows = false;
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                const isVisible = text.includes(searchTerm);
+                
+                if (isVisible) {
+                    row.style.display = '';
+                    row.classList.remove('hidden-row');
+                    hasVisibleRows = true;
+                    visibleRows++;
+                } else {
+                    row.style.display = 'none';
+                    row.classList.add('hidden-row');
+                }
+            });
+            
+            // Hide/show the section header if no rows are visible
+            // Look for the H3 header that precedes this table
+            let sectionHeader = table.previousElementSibling;
+            while (sectionHeader && sectionHeader.tagName !== 'H3') {
+                sectionHeader = sectionHeader.previousElementSibling;
+            }
+            
+            if (sectionHeader && sectionHeader.tagName === 'H3') {
+                sectionHeader.style.display = hasVisibleRows ? '' : 'none';
+                // Also hide any br elements before the header
+                let brElement = sectionHeader.previousElementSibling;
+                if (brElement && brElement.tagName === 'BR') {
+                    brElement.style.display = hasVisibleRows ? '' : 'none';
+                }
+            }
+            
+            // Hide/show the table header row when no data rows are visible
+            const tableHeader = table.querySelector('thead tr');
+            if (tableHeader) {
+                tableHeader.style.display = hasVisibleRows ? '' : 'none';
+            }
+        });
+        
+        // Hide search results counter
+        searchResults.style.display = 'none';
+    }
+    
+    searchInput.addEventListener('input', filterTables);
+    
+    // Clear search on Escape key
+    searchInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            searchInput.value = '';
+            filterTables();
+            searchInput.blur(); // Remove focus
+        }
+    });
+    
+    // Focus search on Ctrl+F or Cmd+F
+    document.addEventListener('keydown', function(e) {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+            e.preventDefault();
+            searchInput.focus();
+        }
+    });
+});
+</script>
