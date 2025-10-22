@@ -43,6 +43,7 @@ table tr.hidden-row {
 }
 &lt;/style&gt;
 &lt;br /&gt;
+&lt;h1 id=&#34;modular-synth-terminology-reference&#34;&gt;Modular Synth Terminology Reference&lt;/h1&gt;
 &lt;h3 id=&#34;-control-and-modulation-terms&#34;&gt;🎚️ Control and Modulation Terms&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -133,6 +134,11 @@ table tr.hidden-row {
           &lt;td&gt;Modulation Polarity&lt;/td&gt;
           &lt;td&gt;Determines whether modulation adds to (positive), subtracts from (negative), or affects both directions (bipolar) around the base value.&lt;/td&gt;
       &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;KB&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Keyboard Control Voltage&lt;/td&gt;
+          &lt;td&gt;CV output from a keyboard, usually 1V/oct, used to track pitch across modules.&lt;/td&gt;
+      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;br /&gt;
@@ -210,6 +216,16 @@ table tr.hidden-row {
           &lt;td&gt;&lt;strong&gt;SUM&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;Summing Output&lt;/td&gt;
           &lt;td&gt;Combines multiple voltages.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;MULT&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Multiple&lt;/td&gt;
+          &lt;td&gt;Passive or buffered splitter that duplicates one signal to several outputs. Each numbered group (e.g. &lt;strong&gt;MULT 1&lt;/strong&gt;, &lt;strong&gt;MULT 2&lt;/strong&gt;) is independent. Unlike stacked cables, multiples provide cleaner, more reliable duplication—especially important for accurate pitch or modulation signals.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;HOLD&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Hold&lt;/td&gt;
+          &lt;td&gt;Maintains the current voltage while active (used in S&amp;amp;H, EG sustain, or track/hold circuits).&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -426,7 +442,7 @@ table tr.hidden-row {
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;BI / UNI&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;Bipolar / Unipolar&lt;/td&gt;
-          &lt;td&gt;Indicates signal polarity range (e.g. ±5V vs 0–5V).&lt;/td&gt;
+          &lt;td&gt;Indicates whether a signal swings around zero (bipolar, e.g. –5V to +5V) or only stays positive (unipolar, e.g. 0V to +5V). Bipolar signals can modulate parameters both above and below a center point, while unipolar signals only add or increase values.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;strong&gt;LIN / EXP&lt;/strong&gt;&lt;/td&gt;

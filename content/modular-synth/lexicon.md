@@ -35,6 +35,8 @@ table tr.hidden-row {
 
 <br />
 
+# Modular Synth Terminology Reference
+
 ### 🎚️ Control and Modulation Terms
 
 | Label | Meaning | Description |
@@ -55,6 +57,7 @@ table tr.hidden-row {
 | **VC** | Voltage Controlled | Prefix meaning voltage-controllable (VC Delay, VC Mixer, etc.). |
 | **MOD** | Modulation | A control signal (usually CV) affecting a parameter (e.g. filter cutoff, pitch, PWM). |
 | **MOD POLARITY** | Modulation Polarity | Determines whether modulation adds to (positive), subtracts from (negative), or affects both directions (bipolar) around the base value. |
+| **KB** | Keyboard Control Voltage | CV output from a keyboard, usually 1V/oct, used to track pitch across modules. |
 
 <br />
 
@@ -75,6 +78,8 @@ table tr.hidden-row {
 | **MIX / MIXER** | Combines Signals | Blends multiple sources. |
 | **INV** | Invert | Flips the signal polarity. |
 | **SUM** | Summing Output | Combines multiple voltages. |
+| **MULT** | Multiple | Passive or buffered splitter that duplicates one signal to several outputs. Each numbered group (e.g. **MULT 1**, **MULT 2**) is independent. Unlike stacked cables, multiples provide cleaner, more reliable duplication—especially important for accurate pitch or modulation signals. |
+| **HOLD** | Hold | Maintains the current voltage while active (used in S&H, EG sustain, or track/hold circuits). |
 
 <br />
 
@@ -135,7 +140,7 @@ table tr.hidden-row {
 | **MUTE** | Mute | Silences signal. |
 | **PAN** | Panning | Controls left-right balance. |
 | **LEVEL / VOL** | Level / Volume | Output gain control. |
-| **BI / UNI** | Bipolar / Unipolar | Indicates signal polarity range (e.g. ±5V vs 0–5V). |
+| **BI / UNI** | Bipolar / Unipolar | Indicates whether a signal swings around zero (bipolar, e.g. –5V to +5V) or only stays positive (unipolar, e.g. 0V to +5V). Bipolar signals can modulate parameters both above and below a center point, while unipolar signals only add or increase values. |
 | **LIN / EXP** | Linear / Exponential | Response curve type (VCAs, envelopes, etc.). |
 | **EXP FM / LIN FM** | FM Type | Specifies exponential or linear frequency modulation input. |
 
